@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-grey: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-family: 'Karla', sans-serif;
+    color: var(--cyan);
+}
+
+.treinta h2{
+    font-family: 'Karla', sans-serif;
+    color: var(--bright-yellow);
+}
+
+.treinta p{
+    font-family: 'Karla', sans-serif;
+    color: var(--grayish-blue);
+}
+
+h2{
+    font-family: 'Karla', sans-serif;
+
+}
+
+.monthly h2{
+    font-family: 'Karla', sans-serif;
+    color: var(--light-grey);
+}
+.monthly p{
+    font-family: 'Karla', sans-serif;
+    color: var(--light-grey);
+}
+
+.segundo h2{
+    margin-top: 0;
+    font-family: 'Karla', sans-serif;
+    color: var(--light-grey);
+}
+
+.segundo p{
+    font-family: 'Karla', sans-serif;
+    color: var(--light-grey);
+}
+
+button {
+    background-color: var(--bright-yellow);
+    border-radius: .2rem;
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    width: 20rem;
+    height: 4rem;
+}
+.monthly{
+    background-color: var(--cyan);
+}
+
+.segundo{
+    background-color: hsl(179, 73%, 54%);
+}
